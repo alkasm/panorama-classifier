@@ -22,7 +22,7 @@ class Descriptor:
         raise NotImplementedError
 
 
-class Features:
+class Features(list):
     """List-like features with a distance() method to find feature distance."""
 
     def distance(self, other):
@@ -44,7 +44,7 @@ class HistogramDescriptor(Descriptor):
         return HistogramFeatures(hist)
 
 
-class HistogramFeatures(Features, list):
+class HistogramFeatures(Features):
     """Utilizes chi^2 to measure the distance between two histograms."""
 
     def distance(self, other):
