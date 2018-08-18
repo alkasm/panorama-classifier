@@ -66,5 +66,6 @@ This classifier is loosely based on Brown and Lowe's 2003 paper [Recognising Pan
 
 # References
 
-R. Szeliski, [Image Alignment and Stitching: A Tutorial](https://www.microsoft.com/en-us/research/publication/image-alignment-and-stitching-a-tutorial/), Microsoft Research, 2004.
-M. Brown, D. Lowe, "[Recognising Panoramas](http://matthewalunbrown.com/papers/iccv2003.pdf)", ICCV, 2003.
+1. R. Szeliski, [Image Alignment and Stitching: A Tutorial](https://www.microsoft.com/en-us/research/publication/image-alignment-and-stitching-a-tutorial/), Microsoft Research, 2004.
+
+1. M. Brown, D. Lowe, "[Recognising Panoramas](http://matthewalunbrown.com/papers/iccv2003.pdf)", ICCV, 2003.
