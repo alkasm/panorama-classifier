@@ -4,24 +4,24 @@ This repo contains some modules and scripts to classify sets of images that belo
 
 1. Install Python 3.6+ (https://www.python.org) and `pipenv`
 
-    $ pip install pipenv
+       $ pip install pipenv
 
 1. Clone this repo
 
-    $ git clone https://github.com/alkasm/panorama-classifier.git
+       $ git clone https://github.com/alkasm/panorama-classifier.git
     
 1. Change directories into this repo
 
-    $ cd panorama-classifier
-    panorama-classifier $ 
+       $ cd panorama-classifier
+       panorama-classifier $ 
     
 1. Install the necessary packages from the `Pipfile` (`opencv-python` and `networkx` and their dependencies)
 
-    panorama-classifier $ pipenv install
+       panorama-classifier $ pipenv install
     
 1. To run any scripts inside this environment, simply use `pipenv` as you normally would
 
-    panorama-classifier $ pipenv run python classify_hist.py --help
+       panorama-classifier $ pipenv run python classify_hist.py --help
     
 ## Usage
 
