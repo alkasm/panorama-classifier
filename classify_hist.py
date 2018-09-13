@@ -23,7 +23,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('data',
         help='directory with panoramic images')
-    parser.add_argument('--thresh', default=1.25,
+    parser.add_argument('--thresh', default=1.25, type=float,
         help='threshold for matching')
     args = parser.parse_args()
 
